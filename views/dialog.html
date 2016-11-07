@@ -1,0 +1,21 @@
+<md-dialog aria-label= {{game.title}} >
+	<md-toolbar>
+		<div class="md-toolbar-tools">
+			<h3> {{game.title}}, {{game.subtitle}} </h3>
+			<span flex></span>
+			<md-button class="md-icon-button" ng-click="closeDialog()">
+				<img src="../Images/close.png" class="closeIcon">
+			</md-button>
+		</div>
+	</md-toolbar>
+	<md-dialog-content>
+		<h4>Responsibilities</h4>
+		<md-list>
+			<md-list-item ng-repeat="resp in game.resps">
+				<p class="listItem">{{resp}}</p>
+			</md-list-item>
+		</md-list>
+		<h4>Features</h4>
+		<p> {{game.features}} </p>
+	</md-dialog-content>
+</md-dialog>

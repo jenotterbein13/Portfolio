@@ -1,0 +1,23 @@
+<h2>Websites</h2>
+<div class="row">
+	<div class="exampleBox" ng-repeat="website in websites">
+		<a href= {{website.link}} target="_blank">
+		<img src= {{website.img}} >
+		</a>
+		<div class="moreInfo">
+			<p> {{website.title}} <br> {{website.subtitle}} </p>
+		</div>
+	</div>
+</div>
+
+<h2>Games</h2>
+<div class="row">
+	<div class="col-md-4" ng-repeat="game in games">
+		<div class="exampleBox" ng-click="ShowMoreInfo($index)">
+			<img src= {{game.img}} >
+			<div class="moreInfo">
+				<p> {{game.title}} <br> {{game.subtitle}} </p>
+			</div>
+		</div>
+	</div>
+</div>

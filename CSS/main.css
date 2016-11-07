@@ -1,0 +1,128 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Taviraj', serif;
+  background-color: #fff;
+}
+
+.sidebar {
+	padding: 20px;
+	text-align: center;
+	color: #000;
+}
+
+.sidebar h1 {
+	border-bottom: 2px solid #56B267;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 100px;
+}
+
+.sidebar li {
+	margin: 10px;
+	text-align: right;
+}
+
+.sidebar li a {
+	text-decoration: none;
+	padding: 2px 4px 2px 4px;
+	color: #000;
+}
+
+.sidebar .active {
+	border-bottom: 1px solid #B23349;
+}
+
+.mainView {
+	padding: 20px;
+	text-align: center;
+	border-left: 1px solid #000;
+	color: #000;
+	/*background: url("../images/bg1.png") no-repeat center;
+	background-size: cover;*/
+}
+
+.exampleBox {
+	margin: auto;
+	margin-bottom: 8px;
+	width: 314px;
+	height: 239px;
+	background-color: #646464;
+}
+
+.exampleBox img {
+	width: 300px;
+	position: relative;
+	top: 7px;
+}
+
+.exampleBox:hover {
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+.exampleBox .moreInfo {
+	background-color: rgba(0,0,0,0.90);
+	color: #fff;
+	position: relative;
+	top: -120px;
+	display: none;
+}
+
+.moreInfo p {
+	padding: 10px;
+}
+
+.footer {
+	clear: both;
+	background-color: #56B267;
+	padding: 20px 0 27px 0;
+}
+
+.footer p {
+	margin: 5px 0;
+	font-weight: bold;
+}
+
+.footer .copyText {
+	float: right;
+}
+
+.footer .followText {
+	float: left;
+}
+
+.footer a {
+	margin: 6px 0 0 7px;
+}
+
+.about {
+	text-align: left;
+	display: inline-block;
+	margin: 0px 200px 0px 0px;
+}
+
+.selfPortrait {
+	float: left;
+	width: 200px;
+	margin: 10px 10px 0px 10px;
+}
+
+md-dialog {
+	width: 60%;
+}
+
+md-dialog-content {
+	padding: 15px;
+}
+
+.closeIcon {
+	width: 16px;
+}
+
+.md-toolbar-tools {
+	background-color: #56B267;
+}
